@@ -1,0 +1,1 @@
+n,q=(int(x) for x in input().split())
