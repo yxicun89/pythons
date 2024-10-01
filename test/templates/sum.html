@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <a href="/">HOME</a><br />
+        数を半角スペースで区切って入力
+        <form action="/sum" method="POST" enctype="multipart/form-data">
+            <input type="text" name="numbers" />
+            <input type="submit" value="送信" />
+        </form>
+        {{ result }}
+    </body>
+</html>

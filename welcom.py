@@ -1,0 +1,6 @@
+a=int(input("a:"))
+b,c=(int(x) for x in input("b c:").split())
+#c=int(input("c"))
+s=input("s:")
+print(a+b+c,s)
+#print(s)
